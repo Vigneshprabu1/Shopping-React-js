@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import top1 from "../images/top1.jpg";
 import top2 from "../images/top2.jpg";
 import { Link } from "react-router-dom";
+
 import './navbar.css';
 class navbar extends Component {
     render() {
@@ -80,28 +81,28 @@ class navbar extends Component {
                                     <ul className="dropdown-menu multi-column columns-3">
                                         <div className="agile_inner_drop_nav_info">
                                             <div className="col-sm-6 multi-gd-img1 multi-gd-text ">
-                                                <Link to="mens.html"><img src={top2} alt=" "/></Link>
+                                                <Link to="men"><img src={top2} alt=" "/></Link>
                                             </div>
                                             <div className="col-sm-3 multi-gd-img">
                                                 <ul className="multi-column-dropdown "  >
-                                                    <li><Link  to="mens.html">Clothing</Link></li>
-                                                    <li><Link  to="mens.html">Wallets</Link></li>
-                                                    <li><Link  to="mens.html">Footwear</Link></li>
-                                                    <li><Link  to="mens.html">Watches</Link></li>
-                                                    <li><Link  to="mens.html">Accessories</Link></li>
-                                                    <li><Link  to="mens.html">Bags</Link></li>
-                                                    <li><Link  to="mens.html">Caps & Hats</Link></li>
+                                                    <li><Link  to="/men">Clothing</Link></li>
+                                                    <li><Link  to="/men">Wallets</Link></li>
+                                                    <li><Link  to="/men">Footwear</Link></li>
+                                                    <li><Link  to="/men">Watches</Link></li>
+                                                    <li><Link  to="/men">Accessories</Link></li>
+                                                    <li><Link  to="/men">Bags</Link></li>
+                                                    <li><Link  to="/men">Caps & Hats</Link></li>
                                                 </ul>
                                             </div>
                                             <div className="col-sm-3 multi-gd-img">
                                                 <ul className="multi-column-dropdown">
-                                                    <li><Link to="mens.html">Jewellery</Link></li>
-                                                    <li><Link to="mens.html">Sunglasses</Link></li>
-                                                    <li><Link to="mens.html">Perfumes</Link></li>
-                                                    <li><Link to="mens.html">Beauty</Link></li>
-                                                    <li><Link to="mens.html">Shirts</Link></li>
-                                                    <li><Link to="mens.html">Sunglasses</Link></li>
-                                                    <li><Link to="mens.html">Swimwear</Link></li>
+                                                    <li><Link to="men">Jewellery</Link></li>
+                                                    <li><Link to="men">Sunglasses</Link></li>
+                                                    <li><Link to="men">Perfumes</Link></li>
+                                                    <li><Link to="men">Beauty</Link></li>
+                                                    <li><Link to="men">Shirts</Link></li>
+                                                    <li><Link to="men">Sunglasses</Link></li>
+                                                    <li><Link to="men">Swimwear</Link></li>
                                                 </ul>
                                             </div>
                                             <div className="clearfix"></div>
@@ -170,7 +171,7 @@ class navbar extends Component {
         </div>
         
                 );
-             
+                  
           }
       }
 export default navbar;
