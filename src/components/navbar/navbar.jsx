@@ -29,7 +29,7 @@ class navbar extends Component {
                 </div>
                 
                     <div className="col-md-4 logo_agile">
-                        <h1><Link to="index.html"><span>E</span>lite Shoppy <i className="fa fa-shopping-bag top_logo_agile_bag" aria-hidden="true"></i></Link></h1>
+                        <h1><Link to="index.html"><span>S</span>mart Shopping <i className="fa fa-shopping-bag top_logo_agile_bag" aria-hidden="true"></i></Link></h1>
                     </div>
                 
                 <div className="col-md-4 agileits-social top_content">
