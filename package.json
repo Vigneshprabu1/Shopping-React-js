@@ -9,6 +9,7 @@
     "angular-font-awesome": "^3.1.2",
     "font-awesome": "^4.7.0",
     "react": "^16.5.2",
+    "react-awesome-tabs": "^0.1.0",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.5.2",
     "react-responsive-tabs": "^3.0.0",
