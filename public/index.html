@@ -52,29 +52,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <script src="../src/Views/Home/easy-responsive-tabs.js"></script>
-<script>
-	$(document).ready(function () {
-	$('#horizontalTab').easyResponsiveTabs({
-	type: 'default', //Types: default, vertical, accordion           
-	width: 'auto', //auto or any width like 600px
-	fit: true,   // 100% fit in a container
-	closed: 'accordion', // Start closed if in accordion view
-	activate: function(event) { // Callback function if tab is switched
-	var $tab = $(this);
-	var $info = $('#tabInfo');
-	var $name = $('span', $info);
-	$name.text($tab.text());
-	$info.show();
-	}
-	});
-	$('#verticalTab').easyResponsiveTabs({
-	type: 'vertical',
-	width: 'auto',
-	fit: true
-	});
-	});
-</script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

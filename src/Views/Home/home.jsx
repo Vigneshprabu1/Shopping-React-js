@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Footer from '../../components/footer/footer'
-import Navbar from '../../components/navbar/navbar'
+
+
 import Bottom1 from "../../components/images/bottom1.jpg";
 import Bottom2 from "../../components/images/bottom2.jpg";
 import Bottom3 from "../../components/images/bottom3.jpg";
@@ -17,21 +17,20 @@ import M5 from '../../components/images/m5.jpg';
 import M6 from '../../components/images/m6.jpg';
 import M7 from '../../components/images/m7.jpg';
 import M8 from '../../components/images/m8.jpg';
-import W1 from '../../components/images/w1.jpg';
-import W2 from '../../components/images/w2.jpg';
-import W3 from '../../components/images/w3.jpg';
-import W4 from '../../components/images/w4.jpg';
-import W5 from '../../components/images/w5.jpg';
-import W6 from '../../components/images/w6.jpg';
-import W7 from '../../components/images/w7.jpg';
-import W8 from '../../components/images/w8.jpg';
+// import W1 from '../../components/images/w1.jpg';
+// import W2 from '../../components/images/w2.jpg';
+// import W3 from '../../components/images/w3.jpg';
+// import W4 from '../../components/images/w4.jpg';
+// import W5 from '../../components/images/w5.jpg';
+// import W6 from '../../components/images/w6.jpg';
+// import W7 from '../../components/images/w7.jpg';
+// import W8 from '../../components/images/w8.jpg';
 import './home.css';
 import Tabs, { Tab } from 'react-awesome-tabs';
 class home extends Component {
     render() {
         return (
             <div>
-                <Navbar />
                 {/* ----- banner ----- */}
 
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -223,19 +222,19 @@ class home extends Component {
                     <div className="container">
                         <h3 className="wthree_text_info">New <span>Arrivals</span></h3>
                         <div id="horizontalTab">
-                            <ul className="resp-tabs-list">
-                                <li> Men's</li>
+                            {/* <ul className="resp-tabs-list">
+                                <li > Men's</li>
                                 <li> Women's</li>
                                 <li> Bags</li>
                                 <li> Footwear</li>
-                            </ul>
+                            </ul> */}
                             
-                            {/* <ul class="resp-tabs-list">
-							<li class="resp-tab-item resp-tab-active" aria-controls="tab_item-0" role="tab"> Men's</li>
-							<li class="resp-tab-item" aria-controls="tab_item-1" role="tab"> Women's</li>
-							<li class="resp-tab-item" aria-controls="tab_item-2" role="tab"> Bags</li>
-							<li class="resp-tab-item" aria-controls="tab_item-3" role="tab"> Footwear</li>
-						</ul> */}
+                            <ul class="resp-tabs-list">
+							<li class="resp-tab-item resp-tab-active" aria-controls="tab_item-0" role="tab1"> Men's</li>
+							<li class="resp-tab-item" aria-controls="tab_item-1" role="tab2"> Women's</li>
+							<li class="resp-tab-item" aria-controls="tab_item-2" role="tab3"> Bags</li>
+							<li class="resp-tab-item" aria-controls="tab_item-3" role="tab4"> Footwear</li>
+						</ul>
                             <div class="resp-tabs-container">
                                 {/* --/tab_one-- */}
                                 <div class="tab1" >
@@ -879,7 +878,7 @@ class home extends Component {
                 </div>
 
 
-                <Footer />
+               
             </div>
         );
 

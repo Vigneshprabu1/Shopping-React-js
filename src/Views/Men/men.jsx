@@ -15,7 +15,7 @@ class men extends Component{
                                     <div class="agile_inner_breadcrumb">
             
                                        <ul class="w3_short">
-                                            <li><a href="index.html">Home</a><i>|</i></li>
+                                            <li><a href="/">Home</a><i>|</i></li>
                                             <li>Men's Wear</li>
                                         </ul>
                                      </div>

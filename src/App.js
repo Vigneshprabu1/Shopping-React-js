@@ -3,6 +3,8 @@ import {BrowserRouter as Router,Route } from 'react-router-dom';
 import './App.css';
 import Home from './Views/Home/home';
 import Men from './Views/Men/men';
+import Navbar from '../src/components/navbar/navbar';
+import Footer from '../src/components/footer/footer';
 class App extends Component {
 
 
@@ -10,8 +12,11 @@ class App extends Component {
     return (
       <Router>
         <div>
+        <Navbar />
+
         <Route exact path="/" component={Home} />
         <Route path="/men" component={Men} />
+        <Footer/>
         </div>
       </Router>
     );

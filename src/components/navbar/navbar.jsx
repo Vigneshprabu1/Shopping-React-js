@@ -30,7 +30,7 @@ class navbar extends Component {
                 </div>
                 
                     <div className="col-md-4 logo_agile">
-                        <h1><Link to="index.html"><span>S</span>mart Shopping <i className="fa fa-shopping-bag top_logo_agile_bag" aria-hidden="true"></i></Link></h1>
+                        <h1><Link to="index.html"><span>S</span>martShopping <i className="fa fa-shopping-bag top_logo_agile_bag" aria-hidden="true"></i></Link></h1>
                     </div>
                 
                 <div className="col-md-4 agileits-social top_content">
@@ -73,7 +73,7 @@ class navbar extends Component {
                         
                         <div className="collapse navbar-collapse menu--shylock" id="bs-example-navbar-collapse-1">
                           <ul className="nav navbar-nav menu__list">
-                            <li className="active menu__item menu__item--current"><Link className="menu__link" to="index.html">Home <span className="sr-only">(current)</span></Link></li>
+                            <li className="active menu__item menu__item--current"><Link className="menu__link" to="/">Home <span className="sr-only">(current)</span></Link></li>
                             <li className=" menu__item"><Link className="menu__link" to="about.html">About</Link></li>
                             <li className="dropdown menu__item">
                                 <Link to=""   className="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -85,13 +85,13 @@ class navbar extends Component {
                                             </div>
                                             <div className="col-sm-3 multi-gd-img">
                                                 <ul className="multi-column-dropdown "  >
-                                                    <li><Link  to="/men">Clothing</Link></li>
-                                                    <li><Link  to="/men">Wallets</Link></li>
-                                                    <li><Link  to="/men">Footwear</Link></li>
-                                                    <li><Link  to="/men">Watches</Link></li>
-                                                    <li><Link  to="/men">Accessories</Link></li>
-                                                    <li><Link  to="/men">Bags</Link></li>
-                                                    <li><Link  to="/men">Caps & Hats</Link></li>
+                                                    <li><Link  to={"/men"}>Clothing</Link></li>
+                                                    <li><Link  to={"/men"}>Wallets</Link></li>
+                                                    <li><Link  to={"/men"}>Footwear</Link></li>
+                                                    <li><Link  to={"/men"}>Watches</Link></li>
+                                                    <li><Link  to={"/men"}>Accessories</Link></li>
+                                                    <li><Link  to={"/men"}>Bags</Link></li>
+                                                    <li><Link  to={"/men"}>Caps & Hats</Link></li>
                                                 </ul>
                                             </div>
                                             <div className="col-sm-3 multi-gd-img">
