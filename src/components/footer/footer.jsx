@@ -35,12 +35,12 @@ class footer extends Component{
 				<div className="col-md-4 sign-gd">
 					<h4>Our <span>Information</span> </h4>
 					<ul>
-						<li><Link to="index.html">Home</Link></li>
-						<li><Link to="mens.html">Men's Wear</Link></li>
+						<li><Link to="/">Home</Link></li>
+						<li><Link to={"/man"}>Men's Wear</Link></li>
 						<li><Link to="womens.html">Women's wear</Link></li>
 						<li><Link to="about.html">About</Link></li>
 						<li><Link to="typography.html">Short Codes</Link></li>
-						<li><Link to="contact.html">Contact</Link></li>
+						<li><Link to={"/contact"}>Contact</Link></li>
 					</ul>
 				</div>
 				
@@ -81,7 +81,7 @@ class footer extends Component{
 						</div>
 					</div>
 				</div>
-				<div className="col-md-3 sign-gd flickr-post">
+				{/* <div className="col-md-3 sign-gd flickr-post">
 					<h4>Flickr <span>Posts</span></h4>
 					<ul>
 						<li><Link to="single.html"><img src={t1} alt=" " className="img-responsive" /></Link></li>
@@ -94,7 +94,7 @@ class footer extends Component{
 						<li><Link to="single.html"><img src={t2} alt=" " className="img-responsive" /></Link></li>
 						<li><Link to="single.html"><img src={t4} alt=" " className="img-responsive" /></Link></li>
 					</ul>
-				</div>
+				</div> */}
 				<div className="clearfix"></div>
 			</div>
 		</div>
