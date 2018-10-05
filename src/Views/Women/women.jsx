@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+
 import './women.css';
 import W1 from '../../components/images/w1.jpg';
 import W2 from '../../components/images/w2.jpg';
@@ -181,9 +181,9 @@ class women extends Component {
                             </div>
                             <div id="slider">
 					  <figure>
-						    <img src={Banner1}/>
-						    <img src={Banner3}/>
-						    <img src={Banner4}/>
+						    <img alt="" src={Banner1}/>
+						    <img alt="" src={Banner3}/>
+						    <img alt="" src={Banner4}/>
 					  </figure>
 				</div>
                             <div class="men-wear-bottom">

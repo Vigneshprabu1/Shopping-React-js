@@ -183,9 +183,9 @@ class men extends Component {
                             </div>
                             <div id="slider">
 					  <figure>
-						    <img src={Banner2}/>
-						    <img src={Banner5}/>
-						    <img src={Banner2}/>
+						    <img alt="" src={Banner2}/>
+						    <img alt="" src={Banner5}/>
+						    <img alt=""src={Banner2}/>
 					  </figure>
 				</div>
                             <div className="men-wear-bottom">

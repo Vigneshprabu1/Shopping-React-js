@@ -17,6 +17,7 @@ import M5 from '../../components/images/m5.jpg';
 import M6 from '../../components/images/m6.jpg';
 import M7 from '../../components/images/m7.jpg';
 import M8 from '../../components/images/m8.jpg';
+
 // import W1 from '../../components/images/w1.jpg';
 // import W2 from '../../components/images/w2.jpg';
 // import W3 from '../../components/images/w3.jpg';
@@ -48,7 +49,7 @@ class home extends Component {
                                 <div className="carousel-caption">
                                     <h3>The Biggest <span>Sale</span></h3>
                                     <p>Special for today</p>
-                                    <a className="hvr-outline-out button2" href="mens.html">Shop Now </a>
+                                    <a className="hvr-outline-out button2" href="">Shop Now </a>
                                 </div>
                             </div>
                         </div>
@@ -57,7 +58,7 @@ class home extends Component {
                                 <div className="carousel-caption">
                                     <h3>Summer <span>Collection</span></h3>
                                     <p>New Arrivals On Sale</p>
-                                    <a className="hvr-outline-out button2" href="mens.html">Shop Now </a>
+                                    <a className="hvr-outline-out button2" href="">Shop Now </a>
                                 </div>
                             </div>
                         </div>
@@ -66,7 +67,7 @@ class home extends Component {
                                 <div className="carousel-caption">
                                     <h3>The Biggest <span>Sale</span></h3>
                                     <p>Special for today</p>
-                                    <a className="hvr-outline-out button2" href="mens.html">Shop Now </a>
+                                    <a className="hvr-outline-out button2" href="">Shop Now </a>
                                 </div>
                             </div>
                         </div>
@@ -75,7 +76,7 @@ class home extends Component {
                                 <div className="carousel-caption">
                                     <h3>Summer <span>Collection</span></h3>
                                     <p>New Arrivals On Sale</p>
-                                    <a className="hvr-outline-out button2" href="mens.html">Shop Now </a>
+                                    <a className="hvr-outline-out button2" href="">Shop Now </a>
                                 </div>
                             </div>
                         </div>
@@ -84,7 +85,7 @@ class home extends Component {
                                 <div className="carousel-caption">
                                     <h3>The Biggest <span>Sale</span></h3>
                                     <p>Special for today</p>
-                                    <a className="hvr-outline-out button2" href="mens.html">Shop Now </a>
+                                    <a className="hvr-outline-out button2" href="">Shop Now </a>
                                 </div>
                             </div>
                         </div>
@@ -127,7 +128,6 @@ class home extends Component {
                         </div>
                     </div>
                 </div>
-
                 {/* schedule-bottom  */}
 
                 <div className="schedule-bottom">
@@ -140,19 +140,19 @@ class home extends Component {
                             <p>Suspendisse varius turpis efficitur erat laoreet dapibus.
 					Mauris sollicitudin scelerisque commodo.Nunc dapibus mauris sed metus finibus posuere.</p>
                             <div className="col-md-4 w3l_schedule_bottom_right_grid1">
-                                <i className="fab fa-user-o" aria-hidden="true"></i>
+                                <i className="fa fa-user" ></i>
                                 <h4>Customers</h4>
-                                <h5 className="counter">653</h5>
+                                <h5 class="counter">653</h5>
                             </div>
                             <div className="col-md-4 w3l_schedule_bottom_right_grid1">
-                                <i className="fab fa-calendar-o" aria-hidden="true"></i>
+                                <i className="fa fa-calendar" aria-hidden="true"></i>
                                 <h4>Events</h4>
-                                <h5 className="counter">823</h5>
+                                <h5 class="counter">823</h5>
                             </div>
                             <div className="col-md-4 w3l_schedule_bottom_right_grid1">
-                                <i className="fab fa-shield" aria-hidden="true"></i>
+                                <i className="fa fa-shield-alt" ></i>
                                 <h4>Awards</h4>
-                                <h5 className="counter">45</h5>
+                                <h5 class="counter">45</h5>
                             </div>
                             <div className="clearfix"> </div>
                         </div>
@@ -206,11 +206,11 @@ class home extends Component {
                 {/* --/grids-- */}
                 <div className="agile_last_double_sectionw3ls">
                     <div className="col-md-6 multi-gd-img multi-gd-text ">
-                        <a href="womens.html"><img src={Bot_1} alt=" " /><h4>Flat <span>50%</span> offer</h4></a>
+                        <a href={"/women"}><img src={Bot_1} alt=" " /><h4>Flat <span>50%</span> offer</h4></a>
 
                     </div>
                     <div className="col-md-6 multi-gd-img multi-gd-text ">
-                        <a href="womens.html"><img src={Bot_2} alt=" " /><h4>Flat <span>50%</span> offer</h4></a>
+                        <a href={"/women"}><img src={Bot_2} alt=" " /><h4>Flat <span>50%</span> offer</h4></a>
                     </div>
                     <div className="clearfix"></div>
                 </div>

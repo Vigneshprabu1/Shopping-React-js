@@ -58,7 +58,7 @@ class contact extends Component {
 	 </div >
             <div class="contact-w3-agile1 map" data-aos="flip-right">
 
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100949.24429313939!2d-122.44206553967531!3d37.75102885910819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2sin!4v1472190196783" class="map"  allowfullscreen=""></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100949.24429313939!2d-122.44206553967531!3d37.75102885910819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2sin!4v1472190196783" class="map"  allowfullscreen=""/>
             </div>
             <div class="banner_bottom_agile_info">
                 <div class="container">
@@ -69,7 +69,7 @@ class contact extends Component {
                                 <div class="mail-agileits-w3layouts">
                                     <i class="fa fa-phone" aria-hidden="true"></i>
                                     <div class="contact-right">
-                                        <p>Telephone </p><span>+1 (100)222-23-33</span>
+                                        <p>Telephone </p><span>0123456789</span>
                                     </div>
                                     <div class="clearfix"> </div>
                                 </div>
@@ -83,12 +83,15 @@ class contact extends Component {
                                 <div class="mail-agileits-w3layouts">
                                     <i class="fa fa-map-marker" aria-hidden="true"></i>
                                     <div class="contact-right">
-                                        <p>Location</p><span>7784 Diamonds street, California, US.</span>
+                                        <p>Location</p><span>Shop Address</span>
                                     </div>
                                     <div class="clearfix"> </div>
                                 </div>
                                 <ul class="social-nav model-3d-0 footer-social w3_agile_social two contact">
                                     <li class="share">SHARE ON : </li>
+                                    <li><a href="" className="google-plus">
+                                            <div className="front"><i className="fab fa-google" aria-hidden="true"></i></div>
+                                            <div className="back"><i className="fab fa-google" aria-hidden="true"></i></div></a></li>
                                     <li><a href="" class="facebook">
                                         <div class="front"><i class="fab fa-facebook" aria-hidden="true"></i></div>
                                         <div class="back"><i class="fab fa-facebook" aria-hidden="true"></i></div></a></li>

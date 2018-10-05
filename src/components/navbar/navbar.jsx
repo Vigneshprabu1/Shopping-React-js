@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import top1 from "../images/top1.jpg";
 import top2 from "../images/top2.jpg";
 import { Link } from "react-router-dom";
-
+import Login_img from '../images/log_pic.jpg';
 import './navbar.css';
 class navbar extends Component {
     render() {
@@ -11,8 +11,8 @@ class navbar extends Component {
                 <div className="header" id="home">
                     <div className="container">
                         <ul>
-                            <li> <Link to="" data-toggle="modal" data-target="#myModal"><i className="fa fa-unlock-alt" aria-hidden="true"></i> Sign In </Link></li>
-                            <li> <Link to="" data-toggle="modal" data-target="#myModal2"><i className="fas fa-pen-square"  ></i> Sign Up </Link></li>
+                            <li> <a href="" data-toggle="modal" data-target="#myModal"><i className="fa fa-unlock-alt" aria-hidden="true"></i> Sign In </a></li>
+                            <li> <a href="" data-toggle="modal" data-target="#myModal2"><i className="fas fa-pen-square"  ></i> Sign Up </a></li>
                             <li><i className="fa fa-phone" aria-hidden="true"></i> Call : 01234567898</li>
                             <li><i className="fa fa-envelope" aria-hidden="true"></i> <Link to="mailto:info@example.com">info@example.com</Link></li>
                         </ul>
@@ -35,7 +35,10 @@ class navbar extends Component {
 
                         <div className="col-md-4 agileits-social top_content">
                             <ul className="social-nav model-3d-0 footer-social w3_agile_social">
-                                <li className="share">Share On : </li>
+                               <br/> <li className="share">Share On : </li>
+                                <li><Link to="" className="google-plus">
+                                            <div className="front"><i className="fab fa-google" aria-hidden="true"></i></div>
+                                            <div className="back"><i className="fab fa-google" aria-hidden="true"></i></div></Link></li>
                                 <li><Link to="" className="facebook">
                                     <div className="front"><i className="fab fa-facebook" aria-hidden="true"></i></div>
                                     <div className="back"><i className="fab fa-facebook" aria-hidden="true"></i></div></Link></li>
@@ -117,26 +120,26 @@ class navbar extends Component {
                                                             <ul className="multi-column-dropdown">
                                                                 <li><Link to={"/women"}>Clothing</Link></li>
                                                                 <li><Link to={"/women"}>Wallets</Link></li>
-                                                                <li><Link to="womens.html">Footwear</Link></li>
-                                                                <li><Link to="womens.html">Watches</Link></li>
-                                                                <li><Link to="womens.html">Accessories</Link></li>
-                                                                <li><Link to="womens.html">Bags</Link></li>
-                                                                <li><Link to="womens.html">Caps & Hats</Link></li>
+                                                                <li><Link to={"/women"}>Footwear</Link></li>
+                                                                <li><Link to={"/women"}>Watches</Link></li>
+                                                                <li><Link to={"/women"}>Accessories</Link></li>
+                                                                <li><Link to={"/women"}>Bags</Link></li>
+                                                                <li><Link to={"/women"}>Caps & Hats</Link></li>
                                                             </ul>
                                                         </div>
                                                         <div className="col-sm-3 multi-gd-img">
                                                             <ul className="multi-column-dropdown">
-                                                                <li><Link to="womens.html">Jewellery</Link></li>
-                                                                <li><Link to="womens.html">Sunglasses</Link></li>
-                                                                <li><Link to="womens.html">Perfumes</Link></li>
-                                                                <li><Link to="womens.html">Beauty</Link></li>
-                                                                <li><Link to="womens.html">Shirts</Link></li>
-                                                                <li><Link to="womens.html">Sunglasses</Link></li>
-                                                                <li><Link to="womens.html">Swimwear</Link></li>
+                                                                <li><Link to={"/women"}>Jewellery</Link></li>
+                                                                <li><Link to={"/women"}>Sunglasses</Link></li>
+                                                                <li><Link to={"/women"}>Perfumes</Link></li>
+                                                                <li><Link to={"/women"}>Beauty</Link></li>
+                                                                <li><Link to={"/women"}>Shirts</Link></li>
+                                                                <li><Link to={"/women"}>Sunglasses</Link></li>
+                                                                <li><Link to={"/women"}>Swimwear</Link></li>
                                                             </ul>
                                                         </div>
                                                         <div className="col-sm-6 multi-gd-img multi-gd-text ">
-                                                            <Link to="womens.html"><img src={top1} alt=" " /></Link>
+                                                            <Link to={"/women"}><img src={top1} alt=" " /></Link>
                                                         </div>
                                                         <div className="clearfix"></div>
                                                     </div>
@@ -193,25 +196,28 @@ class navbar extends Component {
                                         <input type="submit" value="Sign In" />
                                     </form>
                                     <ul className="social-nav model-3d-0 footer-social w3_agile_social top_agile_third">
+                                    <li><a href="" className="google-plus">
+                                            <div className="front"><i className="fab fa-google" aria-hidden="true"></i></div>
+                                            <div className="back"><i className="fab fa-google" aria-hidden="true"></i></div></a></li>
                                         <li><a href="" className="facebook">
-                                            <div className="front"><i className="fa fa-facebook" aria-hidden="true"></i></div>
-                                            <div className="back"><i className="fa fa-facebook" aria-hidden="true"></i></div></a></li>
+                                            <div className="front"><i className="fab fa-facebook" aria-hidden="true"></i></div>
+                                            <div className="back"><i className="fab fa-facebook" aria-hidden="true"></i></div></a></li>
                                         <li><a href="" className="twitter">
-                                            <div className="front"><i className="fa fa-twitter" aria-hidden="true"></i></div>
-                                            <div className="back"><i className="fa fa-twitter" aria-hidden="true"></i></div></a></li>
+                                            <div className="front"><i className="fab fa-twitter" aria-hidden="true"></i></div>
+                                            <div className="back"><i className="fab fa-twitter" aria-hidden="true"></i></div></a></li>
                                         <li><a href="" className="instagram">
-                                            <div className="front"><i className="fa fa-instagram" aria-hidden="true"></i></div>
-                                            <div className="back"><i className="fa fa-instagram" aria-hidden="true"></i></div></a></li>
+                                            <div className="front"><i className="fab fa-instagram" aria-hidden="true"></i></div>
+                                            <div className="back"><i className="fab fa-instagram" aria-hidden="true"></i></div></a></li>
                                         <li><a href="" className="pinterest">
-                                            <div className="front"><i className="fa fa-linkedin" aria-hidden="true"></i></div>
-                                            <div className="back"><i className="fa fa-linkedin" aria-hidden="true"></i></div></a></li>
+                                            <div className="front"><i className="fab fa-linkedin" aria-hidden="true"></i></div>
+                                            <div className="back"><i className="fab fa-linkedin" aria-hidden="true"></i></div></a></li>
                                     </ul>
                                     <div className="clearfix"></div>
                                     <p><a href="" data-toggle="modal" data-target="#myModal2" > Don't have an account?</a></p>
 
                                 </div>
                                 <div className="col-md-4 modal_body_right modal_body_right1">
-                                    <img src="images/log_pic.jpg" alt=" " />
+                                    <img src={Login_img} alt=" " />
                                 </div>
                                 <div className="clearfix"></div>
                             </div>
@@ -255,25 +261,28 @@ class navbar extends Component {
                                         <input type="submit" value="Sign Up" />
                                     </form>
                                     <ul className="social-nav model-3d-0 footer-social w3_agile_social top_agile_third">
+                                    <li><a href="" className="google-plus">
+                                            <div className="front"><i className="fab fa-google" aria-hidden="true"></i></div>
+                                            <div className="back"><i className="fab fa-google" aria-hidden="true"></i></div></a></li>
                                         <li><a href="" className="facebook">
-                                            <div className="front"><i className="fa fa-facebook" aria-hidden="true"></i></div>
-                                            <div className="back"><i className="fa fa-facebook" aria-hidden="true"></i></div></a></li>
+                                            <div className="front"><i className="fab fa-facebook" aria-hidden="true"></i></div>
+                                            <div className="back"><i className="fab fa-facebook" aria-hidden="true"></i></div></a></li>
                                         <li><a href="" className="twitter">
-                                            <div className="front"><i className="fa fa-twitter" aria-hidden="true"></i></div>
-                                            <div className="back"><i className="fa fa-twitter" aria-hidden="true"></i></div></a></li>
+                                            <div className="front"><i className="fab fa-twitter" aria-hidden="true"></i></div>
+                                            <div className="back"><i className="fab fa-twitter" aria-hidden="true"></i></div></a></li>
                                         <li><a href="" className="instagram">
-                                            <div className="front"><i className="fa fa-instagram" aria-hidden="true"></i></div>
-                                            <div className="back"><i className="fa fa-instagram" aria-hidden="true"></i></div></a></li>
+                                            <div className="front"><i className="fab fa-instagram" aria-hidden="true"></i></div>
+                                            <div className="back"><i className="fab fa-instagram" aria-hidden="true"></i></div></a></li>
                                         <li><a href="" className="pinterest">
-                                            <div className="front"><i className="fa fa-linkedin" aria-hidden="true"></i></div>
-                                            <div className="back"><i className="fa fa-linkedin" aria-hidden="true"></i></div></a></li>
+                                            <div className="front"><i className="fab fa-linkedin" aria-hidden="true"></i></div>
+                                            <div className="back"><i className="fab fa-linkedin" aria-hidden="true"></i></div></a></li>
                                     </ul>
                                     <div className="clearfix"></div>
                                     <p><a href="">By clicking register, I agree to your terms</a></p>
 
                                 </div>
                                 <div className="col-md-4 modal_body_right modal_body_right1">
-                                    <img src="images/log_pic.jpg" alt=" " />
+                                    <img src={Login_img} alt=" " />
                                 </div>
                                 <div className="clearfix"></div>
                             </div>
